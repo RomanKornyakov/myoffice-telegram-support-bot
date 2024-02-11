@@ -1,17 +1,14 @@
 from aiogram import F, Router
 from aiogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.fsm.context import FSMContext
-from data.config import bot, operators_chat, operators
+from data.config import bot, operators_chat, operators, db
 from aiogram.fsm.state import StatesGroup, State
 from utils.comparison import comparison
-from database import Database
 from keyboards.inline_keyboard import inlinebuttons_need_operator, inlinebutton_otvet_operator
 from keyboards.default_keyboard import buttons
 from utils.operator_selection import get_operator
 
 router = Router()
-
-db = Database('database/myoffice_database.db')
 
 
 class OperatorCall(StatesGroup):

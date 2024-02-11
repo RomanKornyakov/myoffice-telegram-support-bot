@@ -4,14 +4,11 @@ from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.storage.base import StorageKey
 from aiogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.filters import Command
-from data.config import bot, dp, operators_chat, operators
-from database import Database
+from data.config import bot, dp, operators_chat, operators, db
 from keyboards.inline_keyboard import inlinebuttons_start_chat_with_operator, inlinebutton_otvet_operator, inlinebutton_cancel_operator, inlinebutton_cancel_user
 from utils.operator_selection import get_operator
 
 router = Router()
-
-db = Database('database/myoffice_database.db')
 
 
 class OperatorCall(StatesGroup):

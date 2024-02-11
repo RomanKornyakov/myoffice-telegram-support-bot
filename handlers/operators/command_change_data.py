@@ -3,13 +3,10 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.filters import Command
-from database import Database
-from data.config import bot, operators_chat
+from data.config import bot, operators_chat, db
 from keyboards.inline_keyboard import inlinebuttons_change_data, inlinebutton_cancel
 
 router = Router()
-
-db = Database('database/myoffice_database.db')
 
 
 class ChangeData(StatesGroup):

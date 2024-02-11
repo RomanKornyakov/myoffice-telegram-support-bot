@@ -3,9 +3,12 @@ from dotenv import load_dotenv
 from aiogram import Bot
 from aiogram import Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
+from database import Database
 
 load_dotenv()
 bot = Bot(os.getenv('TOKEN'), parse_mode='HTML')
+
+db = Database('database/myoffice_database.db')
 
 dp = Dispatcher(storage=MemoryStorage())
 

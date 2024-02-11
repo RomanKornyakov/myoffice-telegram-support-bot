@@ -1,13 +1,10 @@
 from aiogram import Router, F
 from aiogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.filters import Command
-from database import Database
-from data.config import bot, operators_chat
+from data.config import bot, operators_chat, db
 from keyboards.inline_keyboard import inlinebuttons_view_data
 
 router = Router()
-
-db = Database('database/myoffice_database.db')
 
 
 @router.message(Command('view_data'))

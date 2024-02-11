@@ -8,8 +8,6 @@ R
 "handlers/users/command_feedback.py,4\8\487b98ba95507b8c3e050e75b04c79e24660814c
 >
 data/config.py,4\c\4cf6a276f9d839cc81029b3153de6bacea13d084
-Q
-!handlers/errors/errors_handler.py,6\b\6b005ec56e1f2acf2d741ccc2c1f4c841f7d39bd
 C
 utils/comparison.py,7\c\7cb8593e395de0ee923123c02041e32b663baf9d
 L
@@ -40,8 +38,6 @@ G
 handlers/users/start.py,3\d\3d1a447a2a78b44d7d6c49e5408b9e1900da6035
 @
 data/__init__.py,b\8\b88f171bae697b26f07f00ce52e19fd14a29dc6b
-K
-handlers/errors/__init__.py,b\0\b0cf7202ce3508643530cdec5aa35049b66b7213
 N
 handlers/operators/__init__.py,5\7\576fa4736a82cefce25c1e86c572db63f00f0b9e
 D
@@ -63,4 +59,16 @@ G
 K
 utils/operator_selection.py,4\4\442a052f83f950264b1ded50737c6d3ec6f4014e
 9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+9
 	data/.env,c\d\cd29fbadc62afc970aba9c324ea57698598031a2
+M
+database/myoffice_database.db,5\1\51f2c5f542650896831bc4c8c160afbd9e78d1e4
+w
+G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
+Å
+Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1\0\10a03f31c4dce92cb371e761ce9429428bb6c176
+w
+G.idea/sonarlint/issuestore/5/1/51f2c5f542650896831bc4c8c160afbd9e78d1e4,a\2\a2ca8e58c9a75ff5d14f3999f61cfc1fce2e2f10
+Å
+Q.idea/sonarlint/securityhotspotstore/5/1/51f2c5f542650896831bc4c8c160afbd9e78d1e4,0\b\0b30f9d5d62d2be9922384caa19766f1b988a39f
