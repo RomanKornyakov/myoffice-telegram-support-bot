@@ -16,4 +16,5 @@ dp = Dispatcher(storage=MemoryStorage())
 operators_chat = -1001646453733
 
 # словарь с id и username операторов
-operators = {1238334856: '@shaylushay84'}
+operators = {1238334856: '@shaylushay84',
+             6124541482: '@hvnsof'}
