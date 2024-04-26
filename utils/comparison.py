@@ -2,7 +2,7 @@ from fuzzywuzzy import fuzz
 
 
 def comparison(question_user, questions_dict):
-    min_match_percentage = 80  # какой должен быть минимальный процент совпадения вопроса пользователя с вопросом в базе данных
+    min_match_percentage = 75  # какой должен быть минимальный процент совпадения вопроса пользователя с вопросом в базе данных
     max_match = {'id': '', 'percent': min_match_percentage}
 
     for key, value in questions_dict.items():  # сравнение вопроса пользователя с вопросами в базе данных
